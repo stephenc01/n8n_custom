@@ -40,5 +40,5 @@ jobs:
           context: ./next
           file: ./next/Dockerfile
           push: true
-          tags: stephenc01/php_docker_custom:next
+          tags: stephenc01/n8n_custom:next
 
