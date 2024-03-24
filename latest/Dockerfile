@@ -10,7 +10,8 @@ USER root
 RUN apk update && apk add --no-cache \
     python3 \
     py3-pip \
-    && pip3 install --upgrade pip \
+    py3-pandas \
+ #   && pip3 install --upgrade pip \
     && rm -rf /var/cache/apk/*
 
 USER node
